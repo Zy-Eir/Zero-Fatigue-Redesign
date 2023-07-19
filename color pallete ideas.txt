@@ -1,0 +1,3 @@
+color pallete:
+
+#008080 with #eb9f2e highlights
