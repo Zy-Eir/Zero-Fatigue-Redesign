@@ -226,8 +226,8 @@ input:focus {
 
 .pill-section{
     display: none;
+   
 }
-
 
 
 
@@ -236,7 +236,7 @@ input:focus {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem 2rem;
-    background-color: #F0EAD6;
+    background-color: #e90076;
     color: #130630;
 }
 
@@ -549,7 +549,14 @@ font-weight: bold;
     .pill-section{
         display: block;
         padding: 1rem 1rem;
-        background-color: #e90076;
+        background-color: #F0EAD6;
+    }
+
+    .pill-header{
+        text-align: center;
+        font-size: 85px;
+        padding: 2rem 1rem 3rem 1rem; 
+        color: #130630;
     }
     
     .pill-container{
@@ -616,12 +623,15 @@ font-weight: bold;
 
     .tour-dates{
         grid-template-columns: repeat(3, 1fr);
+    
     }
+
+   
 
     .new-releases{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
-        padding: 2rem 2rem;
+        padding: 4rem 3rem;
     }
 
     .new-releases-title-wrapper{
@@ -646,6 +656,10 @@ font-weight: bold;
 
     .new-releases-text{
         font-size: 27px;
+    }
+
+    .bio-text-mobile{
+        display: none;
     }
 
     .new-releases-link-button{
