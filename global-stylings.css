@@ -224,13 +224,68 @@ input:focus {
     object-fit: cover;
 }
 
+
 .pill-section{
-    display: none;
-   
+    display: block;
+    padding: 1rem 1rem;
+    background-color: #F0EAD6;
+}
+
+.pill-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pill-wrapper{
+    width: 100%;
+    height: 150px;
+    margin: 0rem 0rem 1rem 0rem;
+    position: relative;
+    transition: 500ms ease;
+}
+
+.pill-wrapper:hover{
+    height: 450px;
+    transition: 500ms ease;
+
 }
 
 
 
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .25);
+    transition: 500ms ease;
+}
+
+.img-overlay:hover{
+    background-color: rgba(0, 0, 0, 0);
+    transition: 500ms ease;
+}
+
+.overlay-text-styles{
+    height: 100%;
+    opacity: 0;
+    transition: 750ms ease;
+    font-size: 50px;
+}
+
+.overlay-text-styles:hover{
+    padding: 21rem 1rem 1rem 1rem;
+    color: #F0EAD6;
+    opacity: 1;
+    transition: 750ms ease;
+}
+
+.lil-sounds-text-color:hover{
+    color: #130630;
+}
 
 .new-releases{
     display: grid;
@@ -469,6 +524,18 @@ font-weight: bold;
         font-size: 25px;
     }
 
+    .pill-wrapper:hover{
+        height: 650px;
+    }
+
+    .overlay-text-styles{
+        font-size: 64px;
+    }
+
+    .overlay-text-styles:hover{
+        padding: 31rem 1rem 1rem 1.75rem;
+    }
+
     .new-releases{
         padding: 2rem 4rem;
     }
@@ -558,10 +625,18 @@ font-weight: bold;
         padding: 2rem 1rem 3rem 1rem; 
         color: #130630;
     }
+
+    .pill-header{
+        text-align: center;
+        font-size: 85px;
+        padding: 2rem 1rem 3rem 1rem; 
+        color: #130630;
+    }
     
     .pill-container{
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
     
     .pill-wrapper{
@@ -574,6 +649,7 @@ font-weight: bold;
     
     .pill-wrapper:hover{
         width: 500px;
+        height: 100%;
         transition: 500ms ease;
     }
     
@@ -620,6 +696,8 @@ font-weight: bold;
     .lil-sounds-text-color:hover{
         color: #130630;
     }
+
+
 
     .tour-dates{
         grid-template-columns: repeat(3, 1fr);
