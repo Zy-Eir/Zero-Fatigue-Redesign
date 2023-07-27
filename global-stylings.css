@@ -246,7 +246,7 @@ input:focus {
 }
 
 .pill-wrapper:hover{
-    height: 450px;
+    height: 350px;
     transition: 500ms ease;
 
 }
@@ -277,7 +277,7 @@ input:focus {
 }
 
 .overlay-text-styles:hover{
-    padding: 21rem 1rem 1rem 1rem;
+    padding: 16rem 1rem 1rem 1rem;
     color: #F0EAD6;
     opacity: 1;
     transition: 750ms ease;
