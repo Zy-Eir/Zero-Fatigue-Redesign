@@ -1,0 +1,113 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+
+p{
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+svg{
+    stroke: #F0EAD6;
+    stroke-width: 2;
+    transition: 500ms ease;
+}
+
+svg:hover{
+    stroke: #e90076;
+    transition: 500ms ease;
+}
+
+
+.img-stylings{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.collection-section{
+    background-color: #f88a87;
+    padding: 1rem 1rem;
+}
+
+
+/* 
+    beginning of product section styles
+*/
+
+.product-section{
+    background-color: #f88a87;
+    padding: 1.5rem 1.5rem;
+}
+
+.product-title{
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.product-price{
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.product-button{
+    display: block;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: 2px #fff solid;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 1rem;
+    transition: 650ms ease;
+}
+
+.product-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px #000 solid;
+    transition: 650ms ease;
+}
+
+/* 
+    end of product section styles
+*/
+
+
+
+
+
+
+/* 
+    beginning of product-description section styles
+*/
+
+.description-section{
+    padding: 1rem 1rem;
+}
+
+
+/* 
+    end of product-description section styles
+*/
